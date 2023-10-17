@@ -14,9 +14,9 @@ namespace APIsAndJSON
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("------------------------");
-                Console.WriteLine($"Kanye: {quote.Kanye()}");
+                Console.WriteLine($"Kanye: {quote.KanyeQuote()}");
 
-                Console.WriteLine($"Ron Swanson: {quote.RonSwanson()}");
+                Console.WriteLine($"Ron: {quote.RonSwansonQuote()}");
             }
         }
     }

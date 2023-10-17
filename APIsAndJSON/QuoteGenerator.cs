@@ -32,7 +32,7 @@ namespace APIsAndJSON
 
             var ronQuote = JArray.Parse(ronResponse).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
 
-            return ronQuote;
+            return ronQuote[0].ToString();
         }
     }
 }
